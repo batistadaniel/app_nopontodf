@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 50vh;
+      gap: 20px;
+    }
+
+    .home-logo h1 {
+      font-size: 2.5rem;
+      color: #333;
+    }
+
+    .home-nav {
+      background-color: #f0f0f0;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .home-nav li  :hover {
+      background-color: #e0e0e0;
+    }
+
+    .home-nav ul {
+      display: flex;
+      gap: 20px;
+      list-style-type: none;
+    }
+
+    .home-nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-size: 1.2rem;
+    }
+
+    .home-info p {
+      font-size: 1rem;
+      color: #666;
+      text-align: center;
+      max-width: 900;
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="home-logo">
+      <h1 class="">No Ponto DF</h1>
+    </div>
+
+    <nav class="home-nav">
+      <ul class="">
+        <li><a href="/linha">Linhas</a></li>
+        <li><a href="/mapa">Mapa</a></li>
+      </ul>
+    </nav>
+
+    <section class="home-info">
+      <p>ATENÇÃO: Os dados fornecidos na aplicação são de inteira responsabilidade da Semob/DF</p>
+
+      <p>Os dados estão disponíveis publicamente em: https://dfnoponto.semob.df.gov.br, dispensando autorização de uso das informações.</p>
+    </section>
+  </div>
+</body>
+</html>
